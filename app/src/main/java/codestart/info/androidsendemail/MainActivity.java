@@ -79,19 +79,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-//        AsyncTask.execute(new Runnable() {
-//            @Override
-//            public void run() {
-//                //TODO your background code
-//                try {
-//
-//                } catch (Exception e) {
-//                    e.printStackTrace();
-//
-//                }
-//            }
-//        });
-
 
     }
 }
