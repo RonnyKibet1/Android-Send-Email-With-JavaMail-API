@@ -1,6 +1,5 @@
 package codestart.info.androidsendemail;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -33,13 +32,6 @@ public class MainActivity extends AppCompatActivity {
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AsyncTask.execute(new Runnable() {
-                    @Override
-                    public void run() {
-                        //TODO your background code
-
-                    }
-                });
 
                 try {
 
